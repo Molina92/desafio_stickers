@@ -7,6 +7,7 @@
 
 :root {
     --bg: #101b20;
+    --color-font: #f9f9f9be;
     --font: "Poppins", sans-serif;
     /*
         Aqui se definen las variables
@@ -17,9 +18,9 @@
     font-family: var(--font);
     font-weight: 400;
     font-style: normal;
-    display: flex;
-    justify-content: center;
-    color: var(--color-font3);
+    color: var(--color-font);
+    /* display: flex;
+    justify-content: center; */
 }
 
 
