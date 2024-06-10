@@ -83,7 +83,7 @@ section div img {
     background-color: white;
 }
 
-.submit {
+.submit, .parrafo {
     width: 100%;
     background-color: white;
     display: flex;
@@ -98,6 +98,11 @@ section div img {
 
 .btn:hover {
     border: 2px #f9f9f9be solid;
+}
+
+.parrafo {
+    color: #101b20;
+    padding:2rem;
 }
 
 
