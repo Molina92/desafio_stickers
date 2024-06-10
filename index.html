@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Stickers</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <div id="root">
         <section class="partOne">
-            <h1>Stickers Challenge</h1>
+            <h1>STICKERS CHALLENGE</h1>
             <h2>Parte Uno:</h2>
             <div class="image">
                 <img src="./assets/img/image-one.png" class="border">
@@ -17,13 +19,26 @@
         </section>
         <section class="partTwo">
             <h2>Parte Dos:</h2>
-            <h3>Puedes llevar hasta 10 stickers en total</h3>
+            <h3>Puedes llevar hasta 10 stickers en total, ingresa la cantidad de stickers que deseas llevar.</h3>
             <div class="stickers">
+
                 <div class="sticker1">
-                    
+                    <img src="./assets/img/angular.png" alt="Angular Sticker">
+                    <input type="number" id="stick1" class="input" placeholder="Ingresa Cantidad">
                 </div>
-                <div class="sticker2"></div>
-                <div class="sticker3"></div>
+
+                <div class="sticker2">
+                    <img src="./assets/img/astro.png" alt="Astro Sticker">
+                    <input type="number" id="stick2" class="input" placeholder="Ingresa Cantidad">
+                </div>
+
+                <div class="sticker3">
+                    <img src="./assets/img/node.png" alt="Node Sticker">
+                    <input type="number" id="stick3" class="input" placeholder="Ingresa Cantidad">
+                </div>
+            </div>
+            <div class="submit">
+                <button class="btn">ENVIAR</button>
             </div>
         </section>
         <section class="partThree">
