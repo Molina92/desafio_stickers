@@ -48,7 +48,8 @@
 
 /* Part Two*/
 
-.partTwo h2, .partTwo h3 {
+.partTwo h2, .partTwo h3,
+.partThree h2, .partThree h3 {
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -90,13 +91,13 @@ section div img {
     justify-content: center;
 }
 
-.btn {
+.btn, .btn-password {
     padding: 0.5rem 5rem;
     margin-bottom: 2rem;
     color: white;
 }
 
-.btn:hover {
+.btn:hover, .btn-password:hover {
     border: 2px #f9f9f9be solid;
 }
 
@@ -105,10 +106,14 @@ section div img {
     padding:2rem;
 }
 
+/* Part Three*/
 
+.select {
+    padding: 3cap;
+    background-color: white;
+}
 
-
-
-
-
-
+.partThree select {
+    padding: 1rem;
+    color: #f9f9f9be;
+}
